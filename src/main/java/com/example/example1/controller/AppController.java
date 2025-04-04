@@ -8,16 +8,16 @@ public class AppController {
 
     @GetMapping("/public")
     public String publicEndpoint() {
-        return "Đây là endpoint công khai!";
+        return "This is public enpoint!";
     }
 
     @GetMapping("/user")
     public String userEndpoint() {
-        return "Chào mừng USER!";
+        return "WELCOME USER!";
     }
 
     @GetMapping("/admin")
     public String adminEndpoint() {
-        return "Chào mừng ADMIN!";
+        return "WELCOME ADMIN!";
     }
 }
